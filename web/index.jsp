@@ -11,6 +11,13 @@
     <title>任八怪</title>
 </head>
 <body>
-任八怪，年龄30。
+<form action="/web0429/ProductServlet" method="post">
+    商品名:<input type="text" name="name"/><br />
+    商品价格：<input type="text" name="price"/><br />
+    备注：<input type="text" name="remark"/><br />
+    <button type="submit">添加商品</button>
+
+
+</form>
 </body>
 </html>
